@@ -4,12 +4,12 @@ Dmenufm file picker integration for vim.
 
 # Installation
 Using Vundle:
-```
-Plugin 'VebbNix/dmenufm-vim'
+```vim
+Plugin 'VebbNix/dmenufm.vim'
 ```
 Using vim-plug:
 ```
-Plug 'VebbNix/dmenufm-vim'
+Plug 'VebbNix/dmenufm.vim'
 ```
 
 # Usage
