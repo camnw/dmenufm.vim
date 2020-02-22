@@ -1,6 +1,8 @@
 # dmenufm-vim
 Dmenufm file picker integration for vim.
 
+# Info
+This plugin allows [dmenufm](https://github.com/huijunchen9260/dmenufm) to be used as a file picker within vim/neovim.
 
 # Installation
 Using Vundle:
