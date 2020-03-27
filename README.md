@@ -31,3 +31,19 @@ You can remap a key to run this command in your vimrc file like so:
 " This would remap Control + F to open Dmenufm
 nnoremap <C-f> :Dmenufm<CR>
 ```
+
+# Configuration
+
+By default, dmenufm.vim opens a vertical split upon opening a new file. By changing the variable `g:dmenufm#open_command` you may change what command is run to open the new file
+
+Examples:
+```vim
+" Open chosen file in new tab
+let g:dmenufm#open_command = "tabe"
+
+" Open chosen file in current buffer
+let g:dmenufm#open_command = "e"
+
+" Open chosen file in horizontal split
+let g:dmenufm#open_command = "sp"
+```
